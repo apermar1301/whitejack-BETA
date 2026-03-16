@@ -3,9 +3,8 @@ package main;
 public class Main {
 
     public static void main(String[] args) {
-	UI ui = new UI();
-	ui.showMenu();
-	ui.showNewGame();
+        GamePanel gp = new GamePanel();
+        gp.start();
     }
 
 }
